@@ -96,7 +96,7 @@ nav {
 }
 
 .contact_fixer {
-    width: 300px;
+    width: 320px;
     border-radius: 50px;
     border-top: 6px solid #FFBC00;
     border-right: 6px solid #FFBC00;
@@ -106,11 +106,12 @@ nav {
 
     .address {
         float: left;
+        padding-left: 15px;
     }
 
         .address ul {
             list-style: none;
-            margin-left: 20px;
+/*            margin-left: 20px;*/
             padding: 0px;
         }
 
@@ -122,13 +123,14 @@ nav {
             }
 
     .phone {
-        float: left;
+        float: right;
+        padding-right: 15px;
     }
 
         .phone ul {
             list-style: none;
-            margin-left: 10px;
-            margin-right: 20px;
+/*            margin-left: 10px;*/
+/*            margin-right: 20px;*/
             padding: 0px;
         }
 
@@ -146,6 +148,7 @@ nav {
     border-right: 6px solid #FFBC00;
     border-bottom: 0px solid;
     border-left: 6px solid #FFBC00;
+    margin:auto;
 }
 
     .client_list ul {
@@ -162,12 +165,13 @@ nav {
         }
 
 .email_fixer {
-    width: 300px;
+    width: 320px;
     border-radius: 50px;
     border-top: 6px solid #FFBC00;
     border-right: 6px solid #FFBC00;
     border-bottom: 0px solid;
     border-left: 6px solid #FFBC00;
+    float: right;
 }
 
     .emails ul {
