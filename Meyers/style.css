@@ -85,8 +85,13 @@ nav {
         }
 
 
-.footer_item {
-    width: 33%;
+.footer_item_20 {
+    width: 20%;
+    float: left;
+}
+
+.footer_item_40 {
+    width: 40%;
     float: left;
 }
 
@@ -112,7 +117,7 @@ nav {
             .address ul li {
                 margin: 0px;
                 text-align: center;
-                font-size: 13px;
+                font-size: 11px;
                 color: #496473;
             }
 
@@ -130,12 +135,12 @@ nav {
             .phone ul li {
                 margin: 0px;
                 text-align: center;
-                font-size: 13px;
+                font-size: 11px;
                 color: #496473;
             }
 
 .client_fixer {
-    width: 200px;
+    width: 130px;
     border-radius: 50px;
     border-top: 6px solid #FFBC00;
     border-right: 6px solid #FFBC00;
@@ -146,13 +151,13 @@ nav {
     .client_list ul {
         list-style: none;
         margin: 0px;
-        padding: 15px;
+        padding: 8px;
     }
 
         .client_list ul li {
             margin: 0px;
             text-align: center;
-            font-size: 13px;
+            font-size: 11px;
             color: #496473;
         }
 
