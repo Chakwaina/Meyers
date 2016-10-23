@@ -1,6 +1,10 @@
 @charset "UTF-8";
 
-/* CSS Document */
+/*fixes floated divs*/
+
+.clearfix {
+    overflow: auto;
+}
 
 body {
     background-color: #D2F8F9;
@@ -37,10 +41,6 @@ a:hover {
     text-decoration: none;
 }
 
-header {
-/*    height: 50px;*/
-}
-
 .logo {
     height: 100px;
     width: 150px;
@@ -68,33 +68,26 @@ nav {
     margin-right: 60px;
 }
 
-nav ul {
-    list-style: none;
-    margin: 0px;
-    padding: 0px;
-}
+    nav ul {
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+    }
 
-nav li {
-    float: left;
-    /*top right bottom left*/
-    margin: 10px 0px 0px 10px;
-    padding-top: 10px;
-    padding-right: 20px;
-    padding-bottom: 15px;
-    padding-left: 10px;
-}
+        nav ul li {
+            float: left;
+            /*top right bottom left*/
+            margin: 10px 0px 0px 10px;
+            padding-top: 10px;
+            padding-right: 20px;
+            padding-bottom: 15px;
+            padding-left: 10px;
+        }
 
-footer {
-/*    height: 150px;*/
-}
 
 .footer_item {
     width: 33%;
     float: left;
-}
-
-.clearfix {
-    overflow: auto;
 }
 
 .contact_fixer {
@@ -106,40 +99,40 @@ footer {
     border-left: 6px solid #FFBC00;
 }
 
-.address {
-    float: left;
-}
+    .address {
+        float: left;
+    }
 
-.address ul {
-    list-style: none;
-    margin-left: 20px;
-    padding: 0px;
-}
+        .address ul {
+            list-style: none;
+            margin-left: 20px;
+            padding: 0px;
+        }
 
-.address li {
-    margin: 0px;
-    text-align: center;
-    font-size: 13px;
-    color: #496473;
-}
+            .address ul li {
+                margin: 0px;
+                text-align: center;
+                font-size: 13px;
+                color: #496473;
+            }
 
-.phone {
-    float: left;
-}
+    .phone {
+        float: left;
+    }
 
-.phone ul {
-    list-style: none;
-    margin-left: 10px;
-    margin-right: 20px;
-    padding: 0px;
-}
+        .phone ul {
+            list-style: none;
+            margin-left: 10px;
+            margin-right: 20px;
+            padding: 0px;
+        }
 
-.phone li {
-    margin: 0px;
-    text-align: center;
-    font-size: 13px;
-    color: #496473;
-}
+            .phone ul li {
+                margin: 0px;
+                text-align: center;
+                font-size: 13px;
+                color: #496473;
+            }
 
 .client _fixer {
     width: 200px;
@@ -150,18 +143,18 @@ footer {
     border-left: 6px solid #FFBC00;
 }
 
-.client_list ul {
-    list-style: none;
-    margin: 0px;
-    padding: 15px;
-}
+    .client_list ul {
+        list-style: none;
+        margin: 0px;
+        padding: 15px;
+    }
 
-.client_list li {
-    margin: 0px;
-    text-align: center;
-    font-size: 13px;
-    color: #496473;
-}
+        .client_list ul li {
+            margin: 0px;
+            text-align: center;
+            font-size: 13px;
+            color: #496473;
+        }
 
 .email_fixer {
     width: 350px;
@@ -172,15 +165,15 @@ footer {
     border-left: 6px solid #FFBC00;
 }
 
-.emails ul {
-    list-style: none;
-    margin: 0px;
-    padding: 20px;
-}
+    .emails ul {
+        list-style: none;
+        margin: 0px;
+        padding: 20px;
+    }
 
-.emails li {
-    margin: 0px;
-    text-align: center;
-    font-size: 13px;
-    color: #496473;
-}
+        .emails ul li {
+            margin: 0px;
+            text-align: center;
+            font-size: 13px;
+            color: #496473;
+        }
