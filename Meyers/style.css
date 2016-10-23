@@ -38,7 +38,6 @@ a:hover {
 }
 
 header {
-    height: 150px;
 }
 
 .logo {
@@ -85,7 +84,7 @@ nav li {
 }
 
 footer {
-    height: 150px;
+/*    height: 150px;*/
 }
 
 .contact {
