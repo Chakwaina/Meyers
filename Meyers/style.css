@@ -38,6 +38,7 @@ a:hover {
 }
 
 header {
+/*    height: 50px;*/
 }
 
 .logo {
@@ -87,7 +88,7 @@ footer {
 /*    height: 150px;*/
 }
 
-.contact {
+.footer_item {
     width: 33%;
     float: left;
 }
@@ -140,12 +141,6 @@ footer {
     color: #496473;
 }
 
-.client_list {
-    width: 32%;
-    float: left;
-    margin-left: 200px;
-}
-
 .client _fixer {
     width: 200px;
     border-radius: 50px;
@@ -166,12 +161,6 @@ footer {
     text-align: center;
     font-size: 13px;
     color: #496473;
-}
-
-.emails {
-    width: 33%;
-    float: left;
-    margin-left: 650px;
 }
 
 .email_fixer {
