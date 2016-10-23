@@ -4,12 +4,13 @@
 
 body {
     background-color: #D2F8F9;
+    min-width: 960px;
 }
 
 a {
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 12px;
     /*removes underline from link*/
     text-decoration: none;
 }
@@ -37,13 +38,12 @@ a:hover {
 }
 
 header {
-    height: 350px;
-    min-width: 1500px;
+    height: 150px;
 }
 
 .logo {
-    height: 180px;
-    width: 300px;
+    height: 100px;
+    width: 150px;
     background-color: #7696A8;
     float: left;
     border-radius: 50px;
@@ -51,7 +51,7 @@ header {
     border-right: 10px solid #FFBC00;
     border-bottom: 10px solid #FFBC00;
     border-top: 0px solid;
-    margin-left: 60px;
+    margin-left: 30px;
     padding-top: 20px;
     padding-right: 20px;
     padding-left: 20px;
@@ -86,7 +86,6 @@ nav li {
 
 footer {
     height: 150px;
-    min-width: 1500px;
 }
 
 .contact {
