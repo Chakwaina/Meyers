@@ -195,6 +195,7 @@ a:hover {
 
 .centered_text {
     text-align: center;
+    max-width: 700px;
     color: #496473;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -216,6 +217,50 @@ a:hover {
 
 .thumbnail_container img{
     width: 100px;
+    margin: 6px;
+}
+
+.playgrounds_centered_text{
+    float: left;
+    width: 50%
+}
+
+.msw_thumbnail_container table{
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.msw_thumbnail_container td{
+    text-align: center;
+}
+
+.ss_thumbnail_container table{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.ss_thumbnail_container td{
+    text-align: center;
+}
+
+.cw_thumbnail_container table{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cw_thumbnail_container td{
+    text-align: center;
+}
+
+p{
+    margin-bottom: 6px;
+}
+
+h4{
+    margin-bottom: 8px;
 }
 
 /*for a sticky footer https://css-tricks.com/couple-takes-sticky-footer/*/
