@@ -13,6 +13,7 @@ html{
 body {
     font-family: 'Roboto', sans-serif;
     min-width: 960px;
+    color: #496473;
 }
 
 a {
@@ -123,7 +124,6 @@ a:hover {
                 margin: 0px;
                 text-align: center;
                 font-size: 11px;
-                color: #496473;
             }
 
     .phone {
@@ -141,7 +141,6 @@ a:hover {
                 margin: 0px;
                 text-align: center;
                 font-size: 11px;
-                color: #496473;
             }
 
 .client_fixer {
@@ -166,7 +165,6 @@ a:hover {
             margin: 0px;
             text-align: center;
             font-size: 11px;
-            color: #496473;
         }
 
 .email_fixer {
@@ -190,22 +188,17 @@ a:hover {
             margin: 0px;
             text-align: center;
             font-size: 11px;
-            color: #496473;
         }
-
-.centered_text_container {
-    color: #496473;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 40px;
-    padding-right: 40px;
-}
 
 .centered_text {
     margin-left: auto;
     margin-right:auto;
     max-width: 700px;
     text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .slideshow{
