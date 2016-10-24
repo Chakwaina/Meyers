@@ -97,16 +97,17 @@ a:hover {
 
 .contact_fixer {
     width: 320px;
+    height: 94px;
     border-radius: 50px;
     border-top: 6px solid #FFBC00;
     border-right: 6px solid #FFBC00;
     border-bottom: 0px solid;
     border-left: 6px solid #FFBC00;
-    padding: 15px;
 }
 
     .address {
         float: left;
+        padding-top: 15px;
         padding-left: 15px;
     }
 
@@ -123,6 +124,7 @@ a:hover {
             }
 
     .phone {
+        padding-top: 15px;
         float: right;
         padding-right: 15px;
     }
@@ -141,12 +143,14 @@ a:hover {
 
 .client_fixer {
     width: 130px;
+    margin-top: 65px;
     border-radius: 50px;
     border-top: 6px solid #FFBC00;
     border-right: 6px solid #FFBC00;
     border-bottom: 0px solid;
     border-left: 6px solid #FFBC00;
     margin:auto;
+    margin-top: 65px;
 }
 
     .client_list ul {
@@ -164,6 +168,7 @@ a:hover {
 
 .email_fixer {
     width: 320px;
+    height: 94px;
     border-radius: 50px;
     border-top: 6px solid #FFBC00;
     border-right: 6px solid #FFBC00;
@@ -175,7 +180,7 @@ a:hover {
     .emails ul {
         list-style: none;
         margin: 0px;
-        padding: 15px;
+        padding-top: 15px;
     }
 
         .emails ul li {
@@ -209,3 +214,19 @@ a:hover {
 .thumbnail_container img{
     width: 100px;
 }
+
+/*for a sticky footer https://css-tricks.com/couple-takes-sticky-footer/*/
+
+    html, body {
+        height: 100%;
+        margin: 0;
+    }
+    .wrapper {
+        min-height: 100%;
+        /* Equal to height of footer */
+        /* But also accounting for potential margin-bottom of last child */
+        margin-bottom: -101px;
+    }
+    .footer, .push {
+        height: 101px;
+    }

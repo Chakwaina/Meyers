@@ -14,41 +14,46 @@
 </head>
 
 <body>
-    <header class="clearfix">
-        <div class="logo">
-            <a href="index.html">
-                <img src="images/meyers_logo.svg" alt="Meyers Logo" />
-            </a>
-        </div>
-        <nav class="main_nav">
-            <ul>
-                <li><a href="/index.html">Home</a></li>
-                <li><a href="/playgrounds.html">Playgrounds</a></li>
-                <li><a href="/msw.html">Music Sand Water</a></li>
-                <li><a href="/ss.html">Safe Surfaces</a></li>
-                <li><a href="/cw.html">Custom Work</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <div class="centered_text">
-            <p>At Meyer Design, we’ve been leading the design and development of safe, accessible, imaginative playgrounds since 1974. We’ve been changing the face of playgrounds every day since we opened our doors, all the while maintaining a commitment to improve the environment for future generations. Find out how we can help your organization play better and greener.</p>
-        </div>
-        <div class="slideshow">
-            <div class="my-slider">
-                <ul>
-                    <li><img src="images/slideshow/slideshow1.jpg"/></li>
-                    <li><img src="images/slideshow/slideshow2.jpg"/></li>
-                    <li><img src="images/slideshow/slideshow3.jpg"/></li>
-                    <li><img src="images/slideshow/slideshow4.jpg"/></li>
-                    <li><img src="images/slideshow/slideshow5.jpg"/></li>
-                </ul>
+    <!-- for a sticky footer https://css-tricks.com/couple-takes-sticky-footer/ -->
+    <div class="wrapper">
+        <header class="clearfix">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/meyers_logo.svg" alt="Meyers Logo" />
+                </a>
             </div>
-        </div>
-        <div class="centered_text">
-            <p>Our playgrounds and M-play“ components are full of surprises, delighting and engaging kids in fresh ways. Our unpredictable and innovative play solutions enhance creativity and promote flexible thinking while kids giggle and laugh their way through a myriad of developmentally appropriate social play opportunities.</p>
-        </div>
-    </main>
+            <nav class="main_nav">
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/playgrounds.html">Playgrounds</a></li>
+                    <li><a href="/msw.html">Music Sand Water</a></li>
+                    <li><a href="/ss.html">Safe Surfaces</a></li>
+                    <li><a href="/cw.html">Custom Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="centered_text">
+                <p>At Meyer Design, we’ve been leading the design and development of safe, accessible, imaginative playgrounds since 1974. We’ve been changing the face of playgrounds every day since we opened our doors, all the while maintaining a commitment to improve the environment for future generations. Find out how we can help your organization play better and greener.</p>
+            </div>
+            <div class="slideshow">
+                <div class="my-slider">
+                    <ul>
+                        <li><img src="images/slideshow/slideshow1.jpg"/></li>
+                        <li><img src="images/slideshow/slideshow2.jpg"/></li>
+                        <li><img src="images/slideshow/slideshow3.jpg"/></li>
+                        <li><img src="images/slideshow/slideshow4.jpg"/></li>
+                        <li><img src="images/slideshow/slideshow5.jpg"/></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="centered_text">
+                <p>Our playgrounds and M-play“ components are full of surprises, delighting and engaging kids in fresh ways. Our unpredictable and innovative play solutions enhance creativity and promote flexible thinking while kids giggle and laugh their way through a myriad of developmentally appropriate social play opportunities.</p>
+            </div>
+        </main>
+        <!-- for a sticky footer https://css-tricks.com/couple-takes-sticky-footer/ -->
+        <div class="push"></div>
+    </div>
     <footer class="clearfix">
         <div class="footer_item_40">
             <div class="contact_fixer clearfix">
@@ -93,10 +98,10 @@
     <script type="text/javascript" src="/js/lightbox.min.js"></script>
     <script type="text/javascript" src="/js/unslider-min.js"></script>
     <script>
-		jQuery(document).ready(function($) {
-			$('.my-slider').unslider();
-		});
-	</script>
+        jQuery(document).ready(function($) {
+            $('.my-slider').unslider();
+        });
+    </script>
 </body>
 
 </html>

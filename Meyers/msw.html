@@ -14,38 +14,43 @@
 </head>
 
 <body>
-    <header class="clearfix">
-        <div class="logo">
-            <a href="index.html">
-                <img src="images/meyers_logo.svg" alt="Meyers Logo" />
-            </a>
-        </div>
-        <nav class="main_nav">
-            <ul>
-                <li><a href="/index.html">Home</a></li>
-                <li><a href="/playgrounds.html">Playgrounds</a></li>
-                <li><a href="/msw.html">Music Sand Water</a></li>
-                <li><a href="/ss.html">Safe Surfaces</a></li>
-                <li><a href="/cw.html">Custom Work</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <div class="thumbnail_container">
-             <a href="images/msw/msw1.jpg" data-lightbox="msw"><img src="images/msw/msw2.jpg"/></a>
-             <a href="images/msw/msw2.jpg" data-lightbox="msw"><img src="images/msw/msw3.jpg"/></a>
-             <a href="images/msw/msw3.jpg" data-lightbox="msw"><img src="images/msw/msw1.jpg"/></a>
-             <a href="images/msw/msw4.jpg" data-lightbox="msw"><img src="images/msw/msw4.jpg"/></a>
-             <a href="images/msw/msw5.jpg" data-lightbox="msw"><img src="images/msw/msw5.jpg"/></a>
-             <a href="images/msw/msw6.jpg" data-lightbox="msw"><img src="images/msw/msw6.jpg"/></a>
-             <a href="images/msw/msw7.jpg" data-lightbox="msw"><img src="images/msw/msw7.jpg"/></a>
-             <a href="images/msw/msw8.jpg" data-lightbox="msw"><img src="images/msw/msw8.jpg"/></a>
-             <a href="images/msw/msw9.jpg" data-lightbox="msw"><img src="images/msw/msw9.jpg"/></a>
-             <a href="images/msw/msw10.jpg" data-lightbox="msw"><img src="images/msw/msw10.jpg"/></a>
-             <a href="images/msw/msw11.jpg" data-lightbox="msw"><img src="images/msw/msw11.jpg"/></a>
-             <a href="images/msw/msw12.jpg" data-lightbox="msw"><img src="images/msw/msw12.jpg"/></a>
-        </div>
-    </main>
+    <!-- for a sticky footer https://css-tricks.com/couple-takes-sticky-footer/ -->
+    <div class="wrapper">
+        <header class="clearfix">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/meyers_logo.svg" alt="Meyers Logo" />
+                </a>
+            </div>
+            <nav class="main_nav">
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/playgrounds.html">Playgrounds</a></li>
+                    <li><a href="/msw.html">Music Sand Water</a></li>
+                    <li><a href="/ss.html">Safe Surfaces</a></li>
+                    <li><a href="/cw.html">Custom Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="thumbnail_container">
+                 <a href="images/msw/msw1.jpg" data-lightbox="msw"><img src="images/msw/msw2.jpg"/></a>
+                 <a href="images/msw/msw2.jpg" data-lightbox="msw"><img src="images/msw/msw3.jpg"/></a>
+                 <a href="images/msw/msw3.jpg" data-lightbox="msw"><img src="images/msw/msw1.jpg"/></a>
+                 <a href="images/msw/msw4.jpg" data-lightbox="msw"><img src="images/msw/msw4.jpg"/></a>
+                 <a href="images/msw/msw5.jpg" data-lightbox="msw"><img src="images/msw/msw5.jpg"/></a>
+                 <a href="images/msw/msw6.jpg" data-lightbox="msw"><img src="images/msw/msw6.jpg"/></a>
+                 <a href="images/msw/msw7.jpg" data-lightbox="msw"><img src="images/msw/msw7.jpg"/></a>
+                 <a href="images/msw/msw8.jpg" data-lightbox="msw"><img src="images/msw/msw8.jpg"/></a>
+                 <a href="images/msw/msw9.jpg" data-lightbox="msw"><img src="images/msw/msw9.jpg"/></a>
+                 <a href="images/msw/msw10.jpg" data-lightbox="msw"><img src="images/msw/msw10.jpg"/></a>
+                 <a href="images/msw/msw11.jpg" data-lightbox="msw"><img src="images/msw/msw11.jpg"/></a>
+                 <a href="images/msw/msw12.jpg" data-lightbox="msw"><img src="images/msw/msw12.jpg"/></a>
+            </div>
+        </main>
+        <!-- for a sticky footer https://css-tricks.com/couple-takes-sticky-footer/ -->
+        <div class="push"></div>
+    </div>
     <footer class="clearfix">
         <div class="footer_item_40">
             <div class="contact_fixer clearfix">
@@ -85,7 +90,7 @@
             </div>
         </div>
     </footer>
-    
+
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script type="text/javascript" src="/js/lightbox.min.js"></script>
     <script type="text/javascript" src="/js/unslider-min.js"></script>
