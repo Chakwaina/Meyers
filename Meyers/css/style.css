@@ -206,3 +206,7 @@ a:hover {
 .slideshow li {
     text-align: center;
 }
+
+.thumbnail_container img{
+    width: 100px;
+}
