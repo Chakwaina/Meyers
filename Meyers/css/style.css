@@ -200,6 +200,7 @@ a:hover {
     background-color: #7696A8;
     border-top: 6px solid #FFBC00;
     border-bottom: 6px solid #FFBC00;
+    position: relative;
 }
 
 .slideshow li {
